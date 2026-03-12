@@ -65,7 +65,7 @@ if st.button("Login"):
     if email and password == "scalar@123":
         st.session_state.logged_in = True
         st.success("Login Successful ✅")
-        st.switch_page("streamlit/pages/1_CEO.py")
+        st.switch_page("pages/1_CEO.py")
     else:
         st.error("Invalid Email or Password ❌")
         
